@@ -1,3 +1,4 @@
+from importlib.metadata import entry_points
 import setuptools
  
 with open("README.md", "r") as fh:
@@ -17,5 +18,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points={
+        'console_scripts': [
+            'timTest = test:timTest',
+        ],
+    },
     python_requires='>=3.7',
 )

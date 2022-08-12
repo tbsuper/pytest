@@ -1,9 +1,10 @@
 README.md
 setup.py
-timpkg/__init__.py
-timpkg/hive.py
-timpkg/test.py
+tim_pkg/__init__.py
+tim_pkg/hive.py
+tim_pkg/test.py
 timtest.egg-info/PKG-INFO
 timtest.egg-info/SOURCES.txt
 timtest.egg-info/dependency_links.txt
+timtest.egg-info/entry_points.txt
 timtest.egg-info/top_level.txt
